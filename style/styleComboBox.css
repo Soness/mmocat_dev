@@ -1,0 +1,68 @@
+* {
+	border: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.comboBox {
+	display: inline-block;
+	position: relative;
+	border-radius: 4px;
+	list-style: none;
+	
+	/*
+		width here
+	*/
+	width: 250px;
+}
+
+.comboBox li {
+	color: white;
+	display: block;
+	/*
+		background and padding here
+	*/
+	background: none;
+	padding: 0 0 0 0;
+	cursor: pointer;
+}
+
+.comboBox img{
+	position: absolute;
+	z-index: 123;
+	right: 15px;
+	top: 15px;
+	transition: .3s !important;
+}
+
+ul.comboBoxItems {
+	margin-top: 8px;
+	border-radius: 4px;
+	position: absolute;
+	overflow: hidden;
+	height: 0;
+	width: 100%;
+	transition: .5s !important;
+}
+
+.rectangle {
+	width: 13px;
+	height: 13px;
+	
+	
+	position: absolute;
+	transform: rotate(45deg);
+	right: 15px;
+	margin-top: 6px;
+	opacity: 0;
+	transition: .2s !important;
+	
+	/*
+		rectangle color here
+	*/
+	
+	background: white;
+}
